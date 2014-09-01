@@ -35,9 +35,10 @@ options.agent = new https.Agent(reqOptions);
 
 app.get('/', function(req, res) {
   var request = https.get(reqOptions, function(response) {
-    console.log('Got a response');
     response.on('data', function(d) {
-      res.render('view', d);
+      var data = JSON.parse(d);
+      console.log(data);
+      res.render('view', data);
     });
   });
 });
