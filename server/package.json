@@ -1,0 +1,18 @@
+{
+  "name": "TLS_SSL_in_Node",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ollie Jennings <ollie@olliejennings.co.uk> (http://olliejennings.co.uk/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "compression": "^1.0.11",
+    "ejs": "^1.0.0",
+    "express": "^4.8.5",
+    "morgan": "^1.2.3"
+  }
+}
