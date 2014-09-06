@@ -1,7 +1,7 @@
 HTTPS in Node
 ===
 
-This repo is for the blog post: ...
+This repo is for the blog post: [HTTPS in NodeJS](https://medium.com/@olliejennings/https-in-nodejs-2ffb6261cf01)
 
 To get this working:
 - Generate the private keys and certificates
